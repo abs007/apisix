@@ -72,7 +72,7 @@ Tutorial: [Use Keycloak with API Gateway to secure APIs](https://apisix.apache.o
 
 :::
 
-This plugin offers two scenorios:
+This plugin offers two scenarios:
 
 1. Authentication between Services: Set `bearer_only` to `true` and configure the `introspection_endpoint` or `public_key` attribute. In this scenario, APISIX will reject requests without a token or invalid token in the request header.
 
